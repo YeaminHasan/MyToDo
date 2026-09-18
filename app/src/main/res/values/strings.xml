@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyToDo</string>
+    <string name="task_title_placeholder">Task Title</string>
+    <string name="task_description_placeholder">Task description goes here&#8230;</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="no_tasks_found">No tasks found. Add a new one!</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="due_date">Due Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="save_task">Save Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+</resources>

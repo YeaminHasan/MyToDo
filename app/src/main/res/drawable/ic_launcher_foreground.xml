@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ছবির মতো রিংয়ের ডার্ক অংশ -->
+    <path
+        android:pathData="M54,54m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0"
+        android:strokeWidth="9"
+        android:strokeColor="#334155" />
+
+    <!-- ছবির মতো অরেঞ্জ-ইয়েলো গ্রাডিয়েন্ট আর্ক -->
+    <path
+        android:pathData="M22,54 A32,32 0 0,1 76.6,31.4"
+        android:strokeWidth="9"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="22"
+                android:startY="54"
+                android:endX="76"
+                android:endY="31"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF914D"/>
+                <item android:offset="1" android:color="#FFBD59"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- ছবির মতো বোল্ড সাদা চেকমার্ক -->
+    <path
+        android:pathData="M38,56 l10,10 l22,-22"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>
